@@ -1,0 +1,442 @@
+*
+{
+	
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Quicksand";
+    src: url(fonts/Quicksand_Bold.otf);
+    src: url(fonts/Quicksand_Light.otf);
+}
+
+body
+{
+	background: url(../img/Web_Fondo_mezcla.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+    font-family: monospace;
+}
+.row
+{
+  background-image: linear-gradient(#43779B 50%, transparent);
+  max-width: 100%;
+  height: 150px;
+}
+				/*BARRA MENÚ SUPERIOR*/
+.main-nav
+{
+	display: inline-block;
+    float: right;
+    list-style: none;
+    margin-top: 4%;
+    margin-right: 24px;
+}
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+    
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: Quicksand;
+    font-size: 15px;
+}
+					/*HEADER*/
+header
+{
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+					/*LOGO*/
+.logo
+{	
+	display: inline-block;
+    width: 140px;
+    padding-left: 50px;
+    margin-left: 24px;
+}
+					/*SIDEBAR*/
+.sidenav {
+  float: left;
+  height: 48%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 20%; /* Stay at the top */
+  left: 1%;
+  background: transparent;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.1s; /* 0.5 second transition effect to slide in the sidenav */
+  border-radius: 20px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+
+
+
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  font-size: 20px;
+  margin-left: 8px;
+}
+
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.barras {
+  position: absolute;
+  display: inline-block;
+  margin-top: 2.5%;
+  padding-left:24px;
+}
+				/*DENTRO DEL SIDEBAR*/
+.titulonav{
+  font-family: Quicksand;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: -10px;
+    
+}
+#acsggl{
+  font-family: Quicksand;
+  margin-left: -5px;
+    margin-top: 30px;
+  padding: 8px 8px 8px 15px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #262626;
+  display: inline-block;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+#acsfb{
+  font-family: Quicksand;
+  padding: 8px 8px 8px 15px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #262626;
+  display: inline-block;
+  margin-left: -40px;
+  transition: 0.3s;
+	border-radius: 10px;
+    
+}
+#botonregis{
+   margin-left: 37%;
+  margin-top: 3%;
+  font-family: Quicksand;
+  padding: 8px 8px 8px 12px;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 15px;
+  color: #262626;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+#botonlogin{
+   margin-left: 41%;
+  margin-top: 3%;
+  font-family: Quicksand;
+  padding: 8px 8px 8px 12px;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 15px;
+  color: #262626;
+  display: inline-block;
+  transition: 0.3s;
+    
+}
+
+#entrar{
+  margin-left: 35%;
+  margin-top: 3%;
+  font-family: Quicksand;
+  padding: 8px 8px 8px 12px;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 15px;
+  color: #262626;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+
+.mail{
+  font-family: Quicksand;
+  padding: 8px 8px 8px 38px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #262626;
+  display: inline-block;
+  transition: 0.3s;
+	
+	
+}
+.pass{
+  font-family: Quicksand;
+  padding: 8px 8px 8px 38px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #262626;
+  display: inline-block;
+  transition: 0.3s;
+}
+.cuenta {
+  font-family: Quicksand;
+  font-size: 15px;
+  margin-left: 35px;
+  margin-top: 5%;
+  
+}
+
+a.registro{
+  font-family: Quicksand;
+  margin-left: 31%;
+}
+
+					/*FOOTER*/
+.footer{
+    
+    position: fixed;
+    background-image: linear-gradient(transparent, #E0CDE9 80%);
+    color: #fff;
+    padding: 10px;
+    width:100%;
+    left:0px;
+    bottom:0px;
+    text-align: center;
+}
+.footer ul {
+  margin-left: 47%;
+  padding: 0;
+  display: flex;
+}
+
+.footer ul li {
+  list-style: none;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 6px;
+  border: 2px solid #fff;
+}
+
+.footer ul li img {
+  width: 100%;
+}
+
+					/*CREADOR*/
+
+/*ImÃ¡genes*/
+
+.main{
+	z-index: 1;
+	width: 100%;
+	height: 80.2%;
+}
+
+p{
+	font-family: Quicksand;
+	font-weight: light;
+	margin-bottom: 8px;
+}
+
+h4{
+	font-family: Quicksand;
+	font-weight: bold;
+	margin-bottom:8px;
+}
+
+h3{
+	
+    font-family: Quicksand;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-bottom: 5%;
+	font-size: 50px;
+	text-align: center;
+	
+}
+
+
+.imgEspecie{
+  transition: 0.3s;
+	display: inline-block;
+	float:left;
+	width: 200px;
+	height: 200px;
+	margin-left:auto;
+ 	margin-right:auto;
+	border-radius: 65px;
+}
+
+#especies{
+	display:table;
+	clear: both;
+	position: relative;
+	width:70%;
+	margin-left: 25%;
+	margin-right: 5%;
+}
+
+.especie{  
+  display: inline-block;
+  opacity: 0.8;
+  margin-left:auto;
+  margin-right:auto;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.imgEspecie:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  opacity: 1.0;
+}
+
+
+#descripcionEspecie{
+	position: absolute;
+	display: inline-block;
+	width: 40%;
+}
+
+.creadorMascotas{
+	position: relative;
+	display: block;
+	margin-top:7.5%;
+}
+
+.flechas{
+	margin-top: 24px;
+}
+
+/* Style the tab */
+.tab {
+  display: inline-block;
+  position: absolute;
+  width: 200px;
+  margin-right: 2%;
+}
+
+/* Style the buttons inside the tab */
+.categoria{
+  background-color: #43779B;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.subcategoria{
+  background-color: #43779B;
+  color: white;
+  padding: 6px;
+  margin: 5px;
+  width: 50%;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 12px;
+}
+
+.botCrear{
+  background-color: #43779B;
+  color: white;
+  padding: 6px;
+  margin: 5px;
+  width: 50%;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 12px;
+}
+
+.botCrear:hover{
+ background-color: cyan;
+}
+
+.imgSubCat{
+	border-style: solid;
+ 	border-width: 3px;
+	border-color: #43779B;
+	border-radius: 8px;
+	cursor: pointer;
+	margin: 6px;
+}
+
+.imgSubCat:hover{
+	border-color: white;
+	}
+.imgSubCat:focus{
+	border-color: white;
+	}
+
+
+/* Change background color of buttons on hover */
+.categoria:hover {
+  background-color: cyan;
+}
+
+/* Create an active/current "tab button" class 
+.categoria.active {
+  background-color: #ccc;
+}*/
+
+#contenedor{
+	position: absolute;
+	display: inline-block;
+	width: 30%;
+	margin-left:250px;
+	margin-right:auto;
+}
+
