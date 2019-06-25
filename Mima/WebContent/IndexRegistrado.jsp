@@ -30,12 +30,19 @@
 	<h3>TUS MASCOTAS</h3>
 	<div id="especies">
 				
-					<div id="Perro" class="especie">
-						<img src="img/Esp_Perro.png" onclick="seleccionarEspecie(0)" class="imgEspecie"> 
-					</div>
+				<fieldset id="mascotas">
 					<div id="Gato" class="especie">
 						<img src="img/Esp_Gato.png" onclick="seleccionarEspecie(1)" class="imgEspecie">
 					</div>
+					
+				<div id="miMascota">
+					<p>Nombre: Kitty</p>
+					<p>Especie: Gato Siamés</p>
+					<p>Género: Hembra, castrada</p>
+					<p>Color de pelo: Rubio</p>
+					<p>Carácter: Tímido</p>
+				</div>
+				</fieldset>
 			</div>
 		</main>
 	<footer class="footer">
