@@ -19,7 +19,7 @@
 				</div>
 				
 				<a href="Index.jsp"><img class="logo" src="img/logo.png"></a>
-				<p class="cuenta">TU CUENTA EN MIMA</p>
+				
 				<ul class="main-nav">
 					<li><a href="IndexRegistrado.jsp"> CUENTA </a></li>
 					<li><a href="Equipo.jsp"> EQUIPO </a></li>
@@ -54,7 +54,7 @@
 						<a href="#"> <input type="button" value="ACCEDE CON GOOGLE+"
 							id="acsggl"></a> <a href="#"> <input type="button"
 							value="ACCEDE CON FACEBOOK" id="acsfb"></a>
-							
+							<p class="cuenta">TU CUENTA EN MIMA</p>
 						 <form action="Registrar" method="post">
 							<label class="mail">Usuario</label>
 								<input type="text" name="USUARIO" /> <br>
